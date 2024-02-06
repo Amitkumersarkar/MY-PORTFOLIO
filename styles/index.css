@@ -1,0 +1,44 @@
+* {
+    font-family: 'Lato', sans-serif;
+
+}
+
+.text-primary {
+    color: rgb(240, 6, 150);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(236, 6, 6, 0.87);
+}
+.buttion-primary {
+    background: rgb(239, 21, 247) ;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: aliceblue;
+    padding: 15px 35px;
+}
